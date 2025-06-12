@@ -1,0 +1,10 @@
+# A list of all the months in a year
+months = ["January", "February", "March", "April", "May", "June", 
+          "July", "August", "September", "October", "November", "December"]
+
+# Print a title
+print("Here are all the months of the year:")
+
+# Loop through each month and print it with a number
+for i in range(12):
+    print(f"{i + 1}. {months[i]}")
